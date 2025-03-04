@@ -1,0 +1,15 @@
+[dependencies]
+  hamster_commander_toolkit = { git = "https://gitcode.com/zhangyin_gitcode/hamster_commander_toolkit.git"}
+  
+
+[package]
+  cjc-version = "0.53.18"
+  compile-option = ""
+  description = "nothing here"
+  link-option = ""
+  name = "hamster_commander"
+  output-type = "executable"
+  src-dir = ""
+  target-dir = ""
+  version = "1.0.0"
+  package-configuration = {}
