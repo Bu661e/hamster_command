@@ -1,9 +1,9 @@
 [dependencies]
-  hamster_commander_toolkit = { git = "https://gitcode.com/zhangyin_gitcode/hamster_commander_toolkit.git"}
-  
+  hamster_commander_toolkit = { git = "https://gitcode.com/zhangyin_gitcode/hamster_commander_toolkit", branch = "master", version = "1.0.0" }
+  simpleioc = { git = "https://gitcode.com/leaveWhite9088/simpleioc", branch = "main" }
 
 [package]
-  cjc-version = "0.53.18"
+  cjc-version = "0.53.4"
   compile-option = ""
   description = "nothing here"
   link-option = ""
@@ -12,4 +12,4 @@
   src-dir = ""
   target-dir = ""
   version = "1.0.0"
-  package-configuration = {}
+  [package.package-configuration]
